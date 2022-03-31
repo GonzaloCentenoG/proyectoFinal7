@@ -1,0 +1,119 @@
+h1 {
+  background-color: #c691fa;
+  padding: 5px;
+  border-radius: 5px;
+  flex: auto;
+  font-family: 'EB Garamond', serif;
+  font-size: 40px;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: 'EB Garamond', serif;
+  font-style: italic;
+  letter-spacing: 0.20em;
+  word-spacing: 0.20em;
+}
+
+h2 {
+  text-decoration: underline;
+  font-size: 30px;
+  font-family: 'EB Garamond', serif;
+  font-style: italic;
+}
+
+body {
+  background-color: #ffd4f4;
+  background-color: #c691fa;
+  padding: 5px;
+  border-radius: 5px;
+  flex: auto;
+  font-family: 'EB Garamond', serif;
+  font-family: 'EB Garamond', serif;
+}
+
+p {
+  font-size: 20px;
+  background-color: #c691fa;
+  padding: 5px;
+  border-radius: 5px;
+  flex: auto;
+  font-family: 'EB Garamond', serif;
+  font-size: 25px;
+  background-color: #c691fa;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: 'EB Garamond', serif;
+}
+
+header {
+  padding: 5px;
+  text-align: center;
+  font-size: 30px;
+  background-color: #c691fa;
+  padding: 5px;
+  border-radius: 5px;
+  flex: auto;
+  font-family: 'EB Garamond', serif;
+}
+
+ul li {
+  display: inline;
+  padding: 20px;
+}
+
+.lista {
+  text-align: center;
+  font-size: 50px;
+}
+
+footer {
+  font-size: 20px;
+  text-align: center;
+  float: left;
+  width: 33.33333%;
+  height: auto;
+  background-color: #c691fa;
+  padding: 15px;
+  border-radius: 15px;
+  border-style: outset;
+  border-color: violet;
+  background-color: #c691fa;
+  padding: 5px;
+  border-radius: 5px;
+  flex: auto;
+  font-family: 'EB Garamond', serif;
+}
+
+article {
+  float: center;
+  width: 66.66667%;
+  height: auto;
+  background-color: #c691fa;
+  padding: 15px;
+  border-radius: 15px;
+  border-style: outset;
+  text-align: center;
+  border-color: violet;
+  background-color: #c691fa;
+  padding: 5px;
+  border-radius: 5px;
+  flex: auto;
+  font-family: 'EB Garamond', serif;
+}
+
+aside {
+  text-align: center;
+  align-content: center;
+  float: center;
+  width: 66.66667%;
+  height: auto;
+  background-color: #c691fa;
+  padding: 15px;
+  border-radius: 15px;
+  border-style: outset;
+  border-color: violet;
+  background-color: #c691fa;
+  padding: 5px;
+  border-radius: 5px;
+  flex: auto;
+  font-family: 'EB Garamond', serif;
+}

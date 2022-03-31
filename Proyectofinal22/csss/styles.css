@@ -1,0 +1,107 @@
+body {
+  background-color: #ffd4f4;
+  font-family: 'EB Garamond', serif;
+}
+.container1{
+  justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;  
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  background-color: #c691fa;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: 'EB Garamond', serif;
+  font-style: italic;
+  letter-spacing: 0.20em;
+  word-spacing: 0.20em;
+}
+h2{
+  text-decoration: underline;
+  font-size: 30px;
+  font-family: 'EB Garamond', serif;
+  font-style: italic;
+}
+p {
+  font-size: 25px;
+  background-color: #c691fa;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: 'EB Garamond', serif;
+}
+header {
+  padding: 5px;
+  text-align: center;
+  font-size: 30px;
+}
+ul li{
+  display: inline;
+  padding: 20px;
+}
+.lista{
+  text-align: center;
+  font-size: 50px;
+}
+article {
+  float: center;
+  width: 66.66667%;
+  height: auto;
+  background-color: #c691fa;
+  padding: 15px;
+  border-radius: 15px;
+  border-style: outset;
+  text-align: center;
+  border-color: violet;
+  
+}
+aside {
+  text-align: center;
+  align-content: center;
+  float: center;
+  width: 66.66667%;
+  height: auto;
+  background-color: #c691fa;
+  padding: 15px;
+  border-radius: 15px;
+  border-style: outset;
+  border-color: violet;
+   
+}
+footer {
+  font-size: 20px;
+  text-align: center;
+  float: left;
+  width: 33.33333%;
+  height: auto;
+  background-color: #c691fa;
+  padding: 15px;
+  border-radius: 15px;
+  border-style: outset;
+  border-color: violet;
+  
+}
+@media (max-width: 600px) {
+  .grid-container {
+        grid-template-columns: auto          
+      "aside  aside" 100px
+      "navbar  navbar" 50px        
+      "footer  footer" 100px /
+      200px    auto;
+      }
+}
+@media (max-width: 900px) {
+  .grid-container {
+    grid-template-columns: auto
+      "aside  aside aside"  100px
+      "navbar  main   main"  
+      "footer  footer footer"  100px /
+      900px    auto   300px;
+  }
+}
